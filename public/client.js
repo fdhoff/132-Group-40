@@ -236,7 +236,7 @@ function addClientMarker(address, boundsList) {
 		var location = results[0].geometry.location;
 		var marker = new google.maps.Marker({
 			map: map,
-			icon: 'http://maps.google.com/mapfiles/marker_white.png',
+			icon: 'http://bfc6069c43f7ffbc5dba-0502af2ee568fe969e1c3ea7c42e34f6.r90.cf1.rackcdn.com/images/icons/google_pin/google_map_icon_star_pin.png',
 			position: location,
 			animation: google.maps.Animation.DROP
 		});
