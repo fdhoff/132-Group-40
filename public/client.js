@@ -215,7 +215,11 @@ function addClientMarker(address, boundsList) {
 		var location = results[0].geometry.location;
 		var marker = new google.maps.Marker({
 			map: map,
+<<<<<<< HEAD
 			icon: '../public/flower_marker.png',
+=======
+			icon: 'http://bfc6069c43f7ffbc5dba-0502af2ee568fe969e1c3ea7c42e34f6.r90.cf1.rackcdn.com/images/icons/google_pin/google_map_icon_star_pin.png',
+>>>>>>> a605792b8b79a9a358f2c26daf0410a597590822
 			position: location,
 			animation: google.maps.Animation.DROP
 		});
